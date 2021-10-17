@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+
+#import-btn {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#import-btn.active {
+  background-color: aqua;
+}
+
+#import-btn.loading {
+  background-color: red;
+}
